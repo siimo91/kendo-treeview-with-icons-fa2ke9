@@ -1,0 +1,70 @@
+body {
+  font-size: 20px !important;
+}
+
+.k-treeview .k-top,
+.k-treeview .k-mid,
+.k-treeview .k-bot {
+  background-image: url('https://d35islomi5rx1v.cloudfront.net/mvc/2012.2.607/Default/treeview-nodes.png');
+  background-repeat: no-repeat;
+  margin-left: -16px;
+  padding-left: 16px;
+}
+
+.k-treeview .k-item {
+  background-image: url('https://d35islomi5rx1v.cloudfront.net/mvc/2012.2.607/Default/treeview-line.png');
+}
+.k-treeview .k-last {
+  background-image: none !important;
+}
+
+.k-treeview .k-top {
+  background-position: -91px 0;
+}
+.k-treeview .k-bot {
+  background-position: -69px -22px;
+}
+.k-treeview .k-mid {
+  background-position: -70px -5px;
+}
+.k-treeview .k-last .k-top {
+  background-position: -25px -66px;
+}
+.k-treeview .k-group .k-last .k-bot {
+  background-position: -69px -22px;
+}
+
+.k-treeview .k-item {
+  background-repeat: no-repeat;
+}
+
+.k-treeview .k-first {
+  background-repeat: no-repeat;
+  background-position: 0 16px;
+}
+
+.k-treeview .k-i-collapse:before {
+  content: '\e122';
+}
+
+.k-treeview .k-i-expand:before {
+  content: '\e120';
+}
+
+.k-in {
+  border-left: 5px solid rgb(167, 205, 69) !important;
+  background-color: #f2f2f2 !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin-bottom: 15px !important;
+  top: 8px;
+  margin-left: 10px !important;
+}
+
+ul {
+  padding-left: 15px !important;
+}
+
+.k-i-collapse,
+.k-i-expand {
+}
